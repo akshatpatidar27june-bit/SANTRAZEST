@@ -152,6 +152,23 @@ body{background:#fffefa}
 @media(max-width:800px){#farmers .cards{grid-template-columns:1fr;gap:16px}#farmers .card{min-height:0;padding:25px}#farmers .sectionhead{margin-bottom:30px}}
 @media(prefers-reduced-motion:reduce){#farmers .card,#farmers .card:after,#farmers .btn-primary{transition:none}}
 
+
+/* SANTRAZEST — Edge AI approach section */
+.section.alt:has(.featureband){position:relative;overflow:hidden;background:linear-gradient(135deg,#123f2b 0%,#1d5838 58%,#286844 100%);color:#fff}
+.section.alt:has(.featureband):before,.section.alt:has(.featureband):after{content:"";position:absolute;border:1px solid rgba(255,255,255,.09);border-radius:50%;pointer-events:none}
+.section.alt:has(.featureband):before{width:420px;height:420px;right:-150px;top:-180px}
+.section.alt:has(.featureband):after{width:300px;height:300px;left:-150px;bottom:-180px}
+.section.alt:has(.featureband) .wrap{position:relative;z-index:1}
+.section.alt:has(.featureband) .featureband{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(280px,.88fr);gap:clamp(30px,6vw,76px);align-items:center;padding:clamp(28px,5vw,58px);border:1px solid rgba(255,255,255,.16);border-radius:30px;background:linear-gradient(135deg,rgba(255,255,255,.09),rgba(255,255,255,.035));box-shadow:0 24px 65px rgba(0,0,0,.16);backdrop-filter:blur(8px)}
+.section.alt:has(.featureband) .eyebrow{display:inline-flex;padding:8px 13px;border:1px solid rgba(245,190,83,.38);border-radius:999px;color:#ffd77d;background:rgba(245,190,83,.09);font-weight:800;letter-spacing:.1em}
+.section.alt:has(.featureband) .featureband h2{max-width:620px;margin:18px 0 15px;color:#fff;font-size:clamp(2rem,4vw,3.15rem);line-height:1.08;letter-spacing:-.04em}
+.section.alt:has(.featureband) .featureband .lead{max-width:650px;color:rgba(255,255,255,.78);font-size:1.06rem;line-height:1.8}
+.section.alt:has(.featureband) .checklist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:25px;padding:0;list-style:none}
+.section.alt:has(.featureband) .checklist li{position:relative;margin:0;padding:13px 14px 13px 38px;border:1px solid rgba(255,255,255,.12);border-radius:13px;background:rgba(255,255,255,.07);color:rgba(255,255,255,.9);line-height:1.45}
+.section.alt:has(.featureband) .checklist li:before{content:"✓";position:absolute;left:14px;top:12px;color:#f4c65c;font-weight:900}
+.section.alt:has(.featureband) .featurevisual{display:grid;place-items:center;min-height:300px;border:1px solid rgba(255,255,255,.17);border-radius:25px;background:radial-gradient(circle at 50% 38%,rgba(247,190,78,.23),transparent 48%),linear-gradient(145deg,rgba(255,255,255,.12),rgba(255,255,255,.035));font-size:clamp(5rem,10vw,8rem);text-shadow:0 16px 35px rgba(0,0,0,.22)}
+@media(max-width:800px){.section.alt:has(.featureband) .featureband{grid-template-columns:1fr;padding:26px 20px;gap:25px}.section.alt:has(.featureband) .featurevisual{min-height:190px;order:-1}.section.alt:has(.featureband) .checklist{grid-template-columns:1fr}}
+
 </style>
 </head>
 <body>
