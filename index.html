@@ -189,6 +189,22 @@ body{background:#fffefa}
 @media(max-width:480px){#resources .news{grid-template-columns:1fr}#resources .news .placeholder{min-height:135px}#resources .news .placeholder:after{display:block}}
 @media(prefers-reduced-motion:reduce){#resources .news{transition:none}}
 
+
+/* SANTRAZEST — Our Commitment section */
+.section.cream:has(.callout){position:relative;overflow:hidden;background:linear-gradient(145deg,#fff8e9 0%,#f8f5e8 52%,#eef5e9 100%)}
+.section.cream:has(.callout):before{content:"";position:absolute;width:380px;height:380px;left:-190px;top:-190px;border:1px solid rgba(54,112,64,.13);border-radius:50%;box-shadow:0 0 0 35px rgba(54,112,64,.035),0 0 0 70px rgba(54,112,64,.025);pointer-events:none}
+.section.cream:has(.callout) .wrap{position:relative;z-index:1}
+.section.cream:has(.callout) .sectionhead{max-width:850px;margin:0 auto 36px;text-align:center}
+.section.cream:has(.callout) .sectionhead .eyebrow{display:inline-block;padding:8px 14px;border:1px solid rgba(174,128,39,.22);border-radius:999px;background:rgba(255,255,255,.7);color:#8a6826;font-weight:850;letter-spacing:.1em}
+.section.cream:has(.callout) .sectionhead h2{max-width:760px;margin:18px auto 14px;color:#21472e;font-size:clamp(2rem,4vw,3.1rem);line-height:1.1;letter-spacing:-.04em}
+.section.cream:has(.callout) .sectionhead>p{max-width:760px;margin:auto;color:#626f61;font-size:1.04rem;line-height:1.85}
+.section.cream:has(.callout) .callout{display:flex;align-items:center;justify-content:space-between;gap:28px;padding:clamp(26px,4vw,42px);border:1px solid rgba(255,255,255,.25);border-radius:25px;background:linear-gradient(115deg,#174b30 0%,#286844 68%,#39774a 100%);box-shadow:0 20px 48px rgba(35,83,47,.18);color:#fff}
+.section.cream:has(.callout) .callout h2{margin:0 0 10px;color:#fff;font-size:clamp(1.45rem,2.8vw,2.15rem);line-height:1.2;letter-spacing:-.03em}
+.section.cream:has(.callout) .callout p{max-width:580px;margin:0;color:rgba(255,255,255,.78);line-height:1.7}
+.section.cream:has(.callout) .callout .btn{flex-shrink:0;border:1px solid rgba(255,255,255,.3);background:#f0b64e;color:#24452b;box-shadow:0 8px 22px rgba(0,0,0,.15);font-weight:850}
+.section.cream:has(.callout) .callout .btn:hover{background:#ffd06d;transform:translateY(-2px)}
+@media(max-width:700px){.section.cream:has(.callout) .callout{align-items:flex-start;flex-direction:column}.section.cream:has(.callout) .callout .btn{width:100%;text-align:center}}
+
 </style>
 </head>
 <body>
