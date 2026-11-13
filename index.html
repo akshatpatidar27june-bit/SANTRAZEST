@@ -245,6 +245,24 @@ body{background:#fffefa}
 #faq .faq summary:focus-visible{outline:3px solid rgba(230,164,61,.55);outline-offset:-4px;border-radius:15px}
 @media(max-width:600px){#faq .faq summary{min-height:62px;padding:16px 56px 16px 17px;font-size:.98rem}#faq .faq summary:after{right:15px}#faq .faq details p{padding:0 18px 19px}}
 
+
+/* SANTRAZEST — Contact & Support section */
+#contact{position:relative;overflow:hidden;background:linear-gradient(180deg,#fff 0%,#f5f8f1 100%)}
+#contact .sectionhead{max-width:760px;margin:0 auto 40px;text-align:center}
+#contact .sectionhead .eyebrow{display:inline-block;padding:8px 14px;border:1px solid rgba(44,111,63,.16);border-radius:999px;background:#edf5e9;color:#347047;font-weight:850;letter-spacing:.09em}
+#contact .sectionhead h2{margin:17px 0 12px;color:#19432c;font-size:clamp(2rem,4vw,3rem);line-height:1.1;letter-spacing:-.04em}
+#contact .sectionhead>p{max-width:650px;margin:auto;color:#68766b;line-height:1.8}
+#contact .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+#contact .card{min-height:235px;padding:29px 26px;border:1px solid rgba(43,103,61,.14);border-radius:22px;background:#fff;box-shadow:0 12px 32px rgba(28,68,39,.065);transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease}
+#contact .card:hover{transform:translateY(-5px);border-color:rgba(43,103,61,.3);box-shadow:0 19px 38px rgba(28,68,39,.12)}
+#contact .cardicon{display:grid;place-items:center;width:56px;height:56px;margin-bottom:22px;border-radius:17px;background:linear-gradient(145deg,#eaf4e6,#fff1d9);font-size:1.7rem}
+#contact .card h3{margin:0 0 10px;color:#214b31;font-size:1.22rem}
+#contact .card p{margin:0;color:#68766b;line-height:1.75}
+#contact .card p a{display:inline-block;margin-top:4px;padding:2px 0;text-decoration:none}
+#contact .card p a:hover{text-decoration:underline}
+@media(max-width:800px){#contact .cards{grid-template-columns:1fr;gap:15px}#contact .card{min-height:0;padding:24px}}
+@media(prefers-reduced-motion:reduce){#contact .card{transition:none}}
+
 </style>
 </head>
 <body>
