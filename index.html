@@ -59,6 +59,21 @@ body{background:#fffefa}
 @media(max-width:850px){.hero-grid{padding:58px 0 68px}.hero-art{min-height:350px}.orchard-photo{height:275px}}
 @media(max-width:560px){.hero-grid{padding:48px 0 54px}.hero h1{letter-spacing:-2.4px}.hero-art{min-height:285px;border-radius:20px}.orchard-photo{height:215px;border-width:5px}.floating{padding:10px 12px;font-size:10px}.floating strong{font-size:14px}.sectionhead h2{letter-spacing:-1px}.card{padding:23px}.founder{padding:20px}}
 
+
+/* SECTION 2 — ABOUT SANTRAZEST visual treatment */
+#about{background:linear-gradient(180deg,#fffefa 0%,#f7faf4 100%);overflow:hidden}
+#about:before{content:"";position:absolute;width:340px;height:340px;border-radius:50%;right:-190px;top:30px;background:radial-gradient(circle,#f5d77d55,transparent 68%);pointer-events:none}
+#about .sectionhead{position:relative;margin-bottom:48px}
+#about .sectionhead:after{content:"";display:block;width:64px;height:4px;border-radius:5px;background:linear-gradient(90deg,var(--orange),var(--gold));margin:22px auto 0}
+#about .cards{position:relative;gap:24px}
+#about .card{position:relative;min-height:225px;padding:32px 30px 30px 104px;overflow:hidden;background:rgba(255,255,255,.92);border:1px solid #e8eee4;box-shadow:0 14px 34px rgba(24,61,43,.055)}
+#about .card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--orange),var(--gold));opacity:.9}
+#about .cardicon{position:absolute;left:28px;top:31px;width:58px;height:58px;border-radius:18px;font-size:26px;background:linear-gradient(145deg,#fff0c9,#f1f7e9);box-shadow:0 7px 18px rgba(24,61,43,.07)}
+#about .card h3{font-size:20px;margin:2px 0 12px;letter-spacing:-.4px}
+#about .card p{font-size:14px;line-height:1.85}
+@media(max-width:850px){#about .card{min-height:205px;padding-left:96px}}
+@media(max-width:560px){#about .cards{gap:15px}#about .card{min-height:0;padding:23px 22px 24px 88px}#about .cardicon{left:19px;top:23px;width:52px;height:52px}}
+
 </style>
 </head>
 <body>
