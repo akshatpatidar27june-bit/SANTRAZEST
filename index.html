@@ -129,6 +129,29 @@ body{background:#fffefa}
 @media(max-width:850px){#features .featurevisual{min-height:340px}#features .checklist{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){#features .featureband{gap:28px}#features .featurevisual{min-height:265px;font-size:100px;border-radius:20px}#features .checklist{grid-template-columns:1fr;gap:8px}#features .featureband h2{font-size:34px}}
 
+
+/* SANTRAZEST — For Farmers section */
+#farmers{position:relative;overflow:hidden;background:linear-gradient(180deg,#fffdf7 0%,#f5f8ee 100%)}
+#farmers:before{content:"";position:absolute;width:340px;height:340px;border-radius:50%;right:-170px;top:8%;background:radial-gradient(circle,rgba(239,157,54,.13),rgba(239,157,54,0) 70%);pointer-events:none}
+#farmers .wrap{position:relative;z-index:1}
+#farmers .sectionhead{max-width:760px;margin:0 auto 42px;text-align:center}
+#farmers .sectionhead .eyebrow{display:inline-flex;align-items:center;gap:9px;padding:8px 14px;border:1px solid rgba(43,103,61,.16);border-radius:999px;background:#fff;color:#347047;font-weight:800;letter-spacing:.09em}
+#farmers .sectionhead h2{max-width:680px;margin:17px auto 13px;font-size:clamp(2rem,4vw,3.1rem);line-height:1.08;letter-spacing:-.04em;color:#183f2a}
+#farmers .sectionhead>p{max-width:620px;margin:0 auto;color:#647367;font-size:1.06rem;line-height:1.75}
+#farmers .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+#farmers .card{position:relative;overflow:hidden;min-height:260px;padding:30px 28px;border:1px solid rgba(43,103,61,.13);border-radius:22px;background:rgba(255,255,255,.92);box-shadow:0 12px 34px rgba(28,68,39,.07);transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+#farmers .card:after{content:"";position:absolute;left:0;right:0;bottom:0;height:4px;background:linear-gradient(90deg,#287343,#f0a13b,#e5c34f);transform:scaleX(.28);transform-origin:left;transition:transform .25s ease}
+#farmers .card:hover{transform:translateY(-7px);border-color:rgba(43,103,61,.28);box-shadow:0 20px 42px rgba(28,68,39,.13)}
+#farmers .card:hover:after{transform:scaleX(1)}
+#farmers .cardicon{display:grid;place-items:center;width:58px;height:58px;margin-bottom:24px;border-radius:18px;background:linear-gradient(145deg,#edf6e9,#fff4df);font-size:1.8rem;box-shadow:inset 0 0 0 1px rgba(43,103,61,.08)}
+#farmers .card h3{margin:0 0 10px;color:#204b30;font-size:1.3rem;letter-spacing:-.02em}
+#farmers .card p{margin:0;color:#657367;line-height:1.75;font-size:.98rem}
+#farmers .wrap>div[style*="text-align:center"]{margin-top:38px!important}
+#farmers .btn-primary{padding:14px 23px;border-radius:999px;box-shadow:0 9px 22px rgba(38,111,62,.2);transition:transform .2s ease,box-shadow .2s ease}
+#farmers .btn-primary:hover{transform:translateY(-2px);box-shadow:0 13px 27px rgba(38,111,62,.26)}
+@media(max-width:800px){#farmers .cards{grid-template-columns:1fr;gap:16px}#farmers .card{min-height:0;padding:25px}#farmers .sectionhead{margin-bottom:30px}}
+@media(prefers-reduced-motion:reduce){#farmers .card,#farmers .card:after,#farmers .btn-primary{transition:none}}
+
 </style>
 </head>
 <body>
