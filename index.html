@@ -95,6 +95,23 @@ body{background:#fffefa}
 @media(max-width:850px){#founder .founder{grid-template-columns:1fr 1.2fr;gap:24px}#founder .portrait-placeholder{height:290px}}
 @media(max-width:560px){#founder .founder{grid-template-columns:1fr;gap:22px;padding:20px}#founder .portrait-placeholder{height:230px}#founder .founder h2{font-size:32px}}
 
+
+/* SECTION 4 — HOW IT WORKS visual treatment */
+#how{background:linear-gradient(180deg,#f7faf4 0%,#fffefa 100%);overflow:hidden}
+#how .sectionhead{margin-bottom:52px}
+#how .sectionhead:after{content:"";display:block;width:64px;height:4px;border-radius:5px;background:linear-gradient(90deg,var(--orange),var(--gold));margin:20px auto 0}
+#how .steps{position:relative;gap:22px;align-items:stretch}
+#how .steps:before{content:"";position:absolute;top:55px;left:18%;right:18%;height:2px;background:repeating-linear-gradient(90deg,#d7e3d3 0 9px,transparent 9px 17px);z-index:0}
+#how .step{position:relative;z-index:1;text-align:left;padding:34px 30px 30px;border:1px solid #e5ecdf;border-radius:20px;background:rgba(255,255,255,.96);box-shadow:0 14px 34px rgba(20,59,41,.06);transition:transform .25s,box-shadow .25s}
+#how .step:hover{transform:translateY(-7px);box-shadow:0 22px 42px rgba(20,59,41,.11)}
+#how .stepnum{width:58px;height:58px;margin:0 0 24px;background:linear-gradient(145deg,#ffdc77,#f5bd35);border:5px solid #fff8e5;box-shadow:0 0 0 1px #f0d98e,0 8px 18px rgba(195,143,26,.18);font-size:20px}
+#how .step h3{font-size:22px;letter-spacing:-.5px;margin:0 0 10px}
+#how .step p{font-size:14px;line-height:1.85;color:var(--muted);margin:0}
+#how .step:nth-child(2) .stepnum{background:linear-gradient(145deg,#b9d9a8,#80b879);border-color:#f0f7eb;box-shadow:0 0 0 1px #c8dfbd,0 8px 18px rgba(65,130,75,.15)}
+#how .step:nth-child(3) .stepnum{background:linear-gradient(145deg,#ffc69b,#f28a50);border-color:#fff0e5;box-shadow:0 0 0 1px #f5c6a6,0 8px 18px rgba(200,99,40,.15)}
+@media(max-width:850px){#how .steps{gap:15px}#how .step{padding:27px 22px}}
+@media(max-width:560px){#how .steps{gap:16px}#how .steps:before{left:28px;right:auto;top:48px;bottom:48px;width:2px;height:auto;background:repeating-linear-gradient(180deg,#d7e3d3 0 9px,transparent 9px 17px)}#how .step{padding:23px 22px 24px 96px;min-height:150px}#how .stepnum{position:absolute;left:20px;top:23px;width:54px;height:54px;margin:0}#how .step h3{font-size:20px}}
+
 </style>
 </head>
 <body>
