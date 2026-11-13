@@ -205,6 +205,28 @@ body{background:#fffefa}
 .section.cream:has(.callout) .callout .btn:hover{background:#ffd06d;transform:translateY(-2px)}
 @media(max-width:700px){.section.cream:has(.callout) .callout{align-items:flex-start;flex-direction:column}.section.cream:has(.callout) .callout .btn{width:100%;text-align:center}}
 
+
+/* SANTRAZEST — Founder Profile section */
+#founder{position:relative;overflow:hidden;background:linear-gradient(180deg,#fff 0%,#f5f8f1 100%)}
+#founder .sectionhead{max-width:760px;margin:0 auto 38px;text-align:center}
+#founder .sectionhead .eyebrow{display:inline-block;padding:8px 14px;border:1px solid rgba(44,111,63,.15);border-radius:999px;background:#edf5e9;color:#347047;font-weight:850;letter-spacing:.09em}
+#founder .sectionhead h2{margin:17px 0 12px;color:#19432c;font-size:clamp(2rem,4vw,3rem);letter-spacing:-.04em}
+#founder .sectionhead>p{max-width:620px;margin:auto;color:#68766b;line-height:1.75}
+#founder .founder{display:grid;grid-template-columns:minmax(260px,.8fr) minmax(0,1.2fr);gap:clamp(28px,5vw,64px);align-items:center;max-width:1000px;margin:auto;padding:clamp(24px,4vw,42px);border:1px solid rgba(43,103,61,.14);border-radius:28px;background:rgba(255,255,255,.94);box-shadow:0 18px 48px rgba(28,68,39,.09)}
+#founder .portrait-placeholder{position:relative;display:grid;place-items:center;min-height:330px;overflow:hidden;border:1px solid rgba(255,255,255,.6);border-radius:22px;background:radial-gradient(circle at 50% 32%,rgba(245,190,80,.32),transparent 38%),linear-gradient(145deg,#e7f1e2,#f8ead0)}
+#founder .portrait-placeholder:before,#founder .portrait-placeholder:after{content:"";position:absolute;border:1px solid rgba(49,105,59,.16);border-radius:50%;width:230px;height:230px}
+#founder .portrait-placeholder:after{width:285px;height:285px}
+#founder .portrait-placeholder>div{position:relative;z-index:1;text-align:center;color:#41654a}
+#founder .portrait-placeholder span{display:inline-grid;place-items:center;width:106px;height:106px;margin-bottom:15px;border:1px solid rgba(49,105,59,.14);border-radius:50%;background:rgba(255,255,255,.7);font-size:3.6rem}
+#founder .portrait-placeholder b{font-size:1rem}
+#founder .portrait-placeholder small{display:inline-block;margin-top:6px;color:#71806e}
+#founder .founder .pill{display:inline-block;margin-bottom:14px;padding:7px 12px;border-radius:999px;background:#edf5e9;color:#347047;font-size:.78rem;font-weight:850;letter-spacing:.06em}
+#founder .founder h2{margin:0 0 14px;color:#1b472d;font-size:clamp(2rem,4vw,2.8rem);letter-spacing:-.04em}
+#founder .founder p{color:#657367;line-height:1.8}
+#founder .founder a{display:inline-flex;margin-top:3px;padding:11px 16px;border:1px solid rgba(43,103,61,.2);border-radius:999px;background:#f0f6ed;color:#28633d;font-weight:800;text-decoration:none;transition:background .2s ease,transform .2s ease}
+#founder .founder a:hover{background:#e3f0df;transform:translateY(-2px)}
+@media(max-width:760px){#founder .founder{grid-template-columns:1fr;padding:20px}#founder .portrait-placeholder{min-height:240px}#founder .founder>div:last-child{text-align:center}}
+
 </style>
 </head>
 <body>
